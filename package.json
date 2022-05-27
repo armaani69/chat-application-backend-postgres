@@ -1,0 +1,32 @@
+{
+  "name": "chat-application-backend-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armaani69/chat-application-backend-postgres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armaani69/chat-application-backend-postgres/issues"
+  },
+  "homepage": "https://github.com/armaani69/chat-application-backend-postgres#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
